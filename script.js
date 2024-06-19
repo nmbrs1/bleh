@@ -1,4 +1,3 @@
-const button = document.getElementById("the")
-function showHint(){
-  button.style.display = "none";
-}
+document.getElementById('dissipateButton').addEventListener('click', function() {
+    this.classList.add('dissipate');
+});
