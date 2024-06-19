@@ -1,4 +1,4 @@
 const button = document.getElementById("the")
 function showHint(){
-  button.style.display = "none";
+  button.style.opacity = 10%;
 }
